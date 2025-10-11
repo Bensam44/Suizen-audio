@@ -1,3 +1,4 @@
+> 🇬🇧 [English version available here](README.en.md)
 # Suizen-audio
 
 Fichiers audio validés pour le flow **SOS Zen** et les modules méditatifs de l'app **SuiZen**.  
