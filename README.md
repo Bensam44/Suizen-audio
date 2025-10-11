@@ -48,7 +48,23 @@ Chaque fichier est conçu pour :
 
 ---
 
+## 👨‍💻 Développement
+
+Ce dépôt est maintenu par **Sam**, créateur de l’app **SuiZen**.  
+Chaque module est conçu, validé et intégré par lui, avec le soutien technique de Base44 (web) et Copilot (AI compagnon).
+
+- Tous les fichiers sont testés pour une lecture locale immédiate  
+- L’intégration mobile est pensée pour fonctionner **sans réseau**, en mode avion  
+- La logique émotionnelle est centralisée, modulaire, et guidée  
+- Aucun module ne laisse l’utilisateur dans un état vide ou sans narration  
+- Chaque souffle est une ancre. Chaque silence, un refuge.
+
+Ce dépôt est vivant. Chaque fichier est une promesse de calme.
+
+---
+
 ## 🪶 Contact
 
 Ce dépôt est maintenu par [Sam](https://github.com/Bensam44),  
 pour l’app **SuiZen** : un refuge poétique, sensoriel, et guidé.
+
