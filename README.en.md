@@ -1,3 +1,4 @@
+> 🇫🇷 [Version française disponible ici](README.md)
 README.en.md
 # Suizen-audio
 
