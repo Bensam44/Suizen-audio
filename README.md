@@ -91,7 +91,49 @@ Le soleil ne juge pas, il accompagne.”
 | 6 | meditation-guidee-mix.mp3 | Plonge avec tendresse |
 | 7 | transition_emotionnelle.mp3 | Clôture avec gratitude |
 
-*(Tu peux ensuite coller les tableaux des 14 et 21 jours ici aussi)*
+*(### 📆 Parcours 14 jours
+| Jour | Audio | Intention |
+|------|-------|-----------|
+| 1 | calme-ancre.mp3 | Respire pour t’ancrer dans le présent |
+| 2 | souffle_fem_voix1.mp3 | Ton souffle est ton fil d’or |
+| 3 | Silence-Suspendu-mix.mp3 | Le silence est ton refuge, ton espace sacré |
+| 4 | routine-matin-mix.mp3 | Éveille-toi comme une lumière douce |
+| 5 | spirale-respiratoire-fem-v1.mp3 | Dessine des cercles de paix |
+| 6 | meditation-guidee-mix.mp3 | Plonge dans ton monde intérieur avec tendresse |
+| 7 | transition_emotionnelle.mp3 | Traverse ce jour comme une rivière calme |
+| 8 | Silence-Suspendu-mix.mp3 | Écoute ce qui ne fait pas de bruit |
+| 9 | souffle_fem_voix1.mp3 | Respire comme si tu écrivais un poème invisible |
+|10 | routine-matin-mix.mp3 | Commence ce jour avec une caresse d’air |
+|11 | spirale-respiratoire-fem-v1.mp3 | Tourne doucement vers l’intérieur |
+|12 | meditation-guidee-mix.mp3 | Laisse-toi guider sans effort, sans attente |
+|13 | calme-ancre.mp3 | Reviens à ton centre, là où rien ne tremble |
+|14 | transition_emotionnelle.mp3 | Clôture ce cycle avec gratitude et douceur |
+
+Tu ### 📆 Parcours 21 jours
+| Jour | Audio | Intention |
+|------|-------|-----------|
+| 1 | calme-ancre.mp3 | Respire pour t’ancrer dans le présent |
+| 2 | souffle_fem_voix1.mp3 | Ton souffle est ton fil d’or |
+| 3 | Silence-Suspendu-mix.mp3 | Le silence est ton refuge, ton espace sacré |
+| 4 | routine-matin-mix.mp3 | Éveille-toi comme une lumière douce |
+| 5 | spirale-respiratoire-fem-v1.mp3 | Dessine des cercles de paix |
+| 6 | meditation-guidee-mix.mp3 | Plonge dans ton monde intérieur avec tendresse |
+| 7 | transition_emotionnelle.mp3 | Traverse ce jour comme une rivière calme |
+| 8 | Silence-Suspendu-mix.mp3 | Écoute ce qui ne fait pas de bruit |
+| 9 | souffle_fem_voix1.mp3 | Respire comme si tu écrivais un poème invisible |
+|10 | routine-matin-mix.mp3 | Commence ce jour avec une caresse d’air |
+|11 | spirale-respiratoire-fem-v1.mp3 | Tourne doucement vers l’intérieur |
+|12 | meditation-guidee-mix.mp3 | Laisse-toi guider sans effort, sans attente |
+|13 | transition_emotionnelle.mp3 | Change d’état sans te perdre |
+|14 | calme-ancre.mp3 | Reviens à ton centre, là où rien ne tremble |
+|15 | Silence-Suspendu-mix.mp3 | Suspends le bruit, écoute ton ciel intérieur |
+|16 | souffle_fem_voix1.mp3 | Respire pour accueillir ce qui vient |
+|17 | routine-matin-mix.mp3 | Laisse la lumière entrer doucement |
+|18 | spirale-respiratoire-fem-v1.mp3 | Respire en spirale, comme une danse lente |
+|19 | meditation-guidee-mix.mp3 | Explore sans carte, mais avec confiance |
+|20 | calme-ancre.mp3 | Respire pour relâcher ce qui pèse |
+|21 | transition_emotionnelle.mp3 | Clôture ce cycle avec gratitude et douceur |
+peux ensuite coller les tableaux des 14 et 21 jours ici aussi)*
 
 
 
