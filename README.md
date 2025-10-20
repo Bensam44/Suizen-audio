@@ -36,7 +36,7 @@ Rien n’est laissé vide. Chaque souffle est une ancre. Chaque silence, un refu
 ## 🌱 À venir
 
 Modules en cours de test ou en attente de validation :
-- `tres-mal-emily-piano-eau.mp3` – module SOS Zen alternatif, voix + piano + eau
+-
 
 ---
 
@@ -62,7 +62,38 @@ Chaque module est conçu, validé et intégré par lui, avec le soutien techniqu
 
 Ce dépôt est vivant. Chaque fichier est une promesse de calme.
 
----
+---## 🌞 Parcours émotionnel – Chemin du Soleil
+
+> Ce parcours adaptatif guide l’utilisateur sur 7, 14 ou 21 jours, avec des intentions poétiques renouvelées chaque jour. Chaque module est réel, validé, et intégré dans l’app SuiZen. Navigation verrouillée, frise émotionnelle, et lecture guidée sans extraction.
+
+🪶 Introduction :
+“Bienvenue sur ton Chemin du Soleil.  
+Chaque jour, une lumière douce éclaire ton pas.  
+Chaque souffle est une trace, chaque silence un refuge.  
+Tu n’as rien à prouver, juste à marcher.  
+Le soleil ne juge pas, il accompagne.”
+
+✅ Formats disponibles : 7 / 14 / 21 jours  
+🎧 Modules audio : uniquement fichiers réels  
+🔒 Navigation verrouillée, pas de saut possible  
+🌀 Intentions poétiques vivantes  
+🖼️ Frise émotionnelle avec balises : 🌱 🌀 🌙 🛡️  
+🚫 SOS Zen exclu du parcours
+
+### 📆 Parcours 7 jours
+| Jour | Audio | Intention |
+|------|-------|-----------|
+| 1 | calme-ancre.mp3 | Respire pour t’ancrer dans le présent |
+| 2 | souffle_fem_voix1.mp3 | Ton souffle est ton fil d’or |
+| 3 | Silence-Suspendu-mix.mp3 | Le silence est ton refuge |
+| 4 | routine-matin-mix.mp3 | Éveille-toi comme une lumière douce |
+| 5 | spirale-respiratoire-fem-v1.mp3 | Dessine des cercles de paix |
+| 6 | meditation-guidee-mix.mp3 | Plonge avec tendresse |
+| 7 | transition_emotionnelle.mp3 | Clôture avec gratitude |
+
+*(Tu peux ensuite coller les tableaux des 14 et 21 jours ici aussi)*
+
+
 
 ## 🪶 Contact
 
