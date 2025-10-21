@@ -135,6 +135,56 @@ Tu ### 📆 Parcours 21 jours
 |21 | transition_emotionnelle.mp3 | Clôture ce cycle avec gratitude et douceur |
 peux ensuite coller les tableaux des 14 et 21 jours ici aussi)*
 
+## 🖼️ Frise émotionnelle – Balises officielles
+
+Chaque balise est stable, unique, et associée à un cycle émotionnel précis. Elles servent de repères visuels dans l’UI, les notifications, et TherapyPaths.
+
+| Balise | Nom du parcours         | Format   | Sens émotionnel principal             | Usage recommandé                        |
+|--------|--------------------------|----------|----------------------------------------|------------------------------------------|
+| 🌄     | Éveil progressif         | 7 jours  | Début doux, lumière naissante          | UI jour 1, intro narrative, checkpoint   |
+| 🔆     | Cycle solaire            | 14 jours | Expansion rythmée, énergie fluide      | Notifications phase 2, frise centrale    |
+| 🔁     | Renaissance solaire      | 21 jours | Cycle complet, retour au centre        | Clôture de parcours, résumé TherapyPaths |
+| 🌱     | Éveil                    | Global   | Présence, respiration                  | Modules jour 1 ou 2                      |
+| 🌀     | Transition               | Global   | Passage émotionnel, fluidité           | Modules jour 7, 13, 21                   |
+| 🌙     | Introspection            | Global   | Recentrage, silence                    | Modules jour 11–14                       |
+| 🛡️     | Protection               | Global   | Sécurité émotionnelle, refuge          | Modules SOS Zen, ou pause guidée         |
+
+🔒 Tous les noms sont verrouillés. Aucun renommage ou réutilisation croisée n’est autorisé.
+
+---
+
+## 🔔 Prompts narratifs – Notifications de début et de fin
+
+Chaque parcours possède une narration d’ouverture et de clôture, intégrée dans les notifications contextuelles. Ces messages sont poétiques, guidés, et balisés pour renforcer l’identité du cycle.
+
+### 🌄 Éveil progressif (7 jours)
+- **Début** :  
+  > 🌄 “Bienvenue sur ton Éveil progressif. Chaque jour, une lumière douce t’invite à respirer, à ressentir, à revenir à toi. Tu n’as rien à prouver, juste à t’ouvrir.”
+
+- **Fin** :  
+  > 🌄 “Tu as traversé ce cycle avec douceur. Chaque souffle t’a guidé, chaque silence t’a soutenu. L’éveil ne s’arrête pas ici — il devient ton rythme.”
+
+---
+
+### 🔆 Cycle solaire (14 jours)
+- **Début** :  
+  > 🔆 “Bienvenue dans ton Cycle solaire. Ce chemin t’invite à danser avec l’énergie, à écouter ton souffle, à t’étendre dans la lumière. Tu es prêt à rayonner.”
+
+- **Fin** :  
+  > 🔆 “Tu as complété ton cycle. L’expansion est en toi, la clarté aussi. Chaque module t’a offert une trace, chaque intention une direction. Tu peux revenir ici quand tu veux.”
+
+---
+
+### 🔁 Renaissance solaire (21 jours)
+- **Début** :  
+  > 🔁 “Bienvenue dans ta Renaissance solaire. Ce parcours est un retour à ton centre, une traversée guidée par le souffle, la lumière, et le silence. Tu es en chemin.”
+
+- **Fin** :  
+  > 🔁 “Tu as achevé ton Renaissance solaire. Ce cycle est gravé en toi — non comme une fin, mais comme une mémoire vivante. Tu peux le réactiver, le prolonger, ou simplement le laisser résonner.”
+
+---
+
+🧘 Tous les prompts sont verrouillés. Aucun changement de ton ou de balise n’est autorisé sans validation émotionnelle.
 
 
 ## 🪶 Contact
