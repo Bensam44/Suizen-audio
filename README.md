@@ -241,7 +241,33 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
           { "day": 13, "audio": "transition_emotionnelle.mp3", "intention": "Change d’état sans te perdre", "emotionTag": "🌀", "status": "pending" },
           { "day": 14, "audio": "calme-ancre.mp3", "intention": "Reviens à ton centre, là où rien ne tremble", "emotionTag": "🌱", "status": "pending" },
           { "day": 15, "audio": "Silence-Suspendu-mix.mp3", "intention": "Suspends le bruit, écoute ton ciel intérieur", "emotion
+
+
+## 🌞 Structure d’un jour dans le parcours Chemin du Soleil
+
+| Module                     | Description                                                                 | Objectif émotionnel / fonctionnel                     |
+|---------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------|
+| 🧘‍♂️ Méditation guidée      | Audio réel (ex : `calme-ancre.mp3`) avec intention poétique et balise émotionnelle | Apaiser, ancrer, ouvrir le rituel                     |
+| 🌬️ Respiration technique   | Respiration carrée / spirale / cohérence cardiaque selon le jour           | Réguler le système nerveux, apprendre à se contrôler  |
+| ⚖️ Suivi allostatique      | Entrée manuelle ou wearable : sommeil, activité, alimentation, humeur       | Observer l’état du jour, calculer la balance          |
+| 🔔 Rappel doux             | Message personnalisé selon la balance (ex : “Priorise le repos ce soir”)   | Orienter la personne sans pression                    |
+| 🧭 Conseil ZEN             | Texte poétique inspirant (ex : “Laisse-toi porter par la lumière”)         | Inspirer, guider avec douceur                         |
+| 🪞 Journal express         | Champ texte ou vocal : “Quel mot te guide aujourd’hui ?”                   | Ancrer l’expérience, favoriser l’introspection        |
+| 🔁 Rituel de clôture       | Option : refaire la respiration ou relire l’intention                      | Intégrer le vécu, refermer le cycle avec sérénité     |
+
+---
+
+## 📌 Contraintes techniques et émotionnelles
+
+- Tous les fichiers audio sont **réels et validés** — aucun fichier fantôme
+- Les balises émotionnelles sont **verrouillées** et affichées dans la frise
+- Le jour actif est **mis en évidence**, les autres sont **grisés**
+- Le parcours est **modulaire**, chaque bloc peut être activé ou masqué selon le statut
+- Aucun contenu n’est ajouté ou modifié sans validation
+
 ## 🪶 Contact
+
+
 
 Ce dépôt est maintenu par [Sam](https://github.com/Bensam44),  
 pour l’app **SuiZen** : un refuge poétique, sensoriel, et guidé.
