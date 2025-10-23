@@ -88,7 +88,7 @@ Le soleil ne juge pas, il accompagne.”
 | 3 | Silence-Suspendu-mix.mp3 | Le silence est ton refuge |
 | 4 | routine-matin-mix.mp3 | Éveille-toi comme une lumière douce |
 | 5 | spirale-respiratoire-fem-v1.mp3 | Dessine des cercles de paix |
-| 6 | meditation-guidee-mix.mp3 | Plonge avec tendresse |
+| 6 | meditation-guidée-mix.mp3 | Plonge avec tendresse |
 | 7 | transition_emotionnelle.mp3 | Clôture avec gratitude |
 
 *(### 📆 Parcours 14 jours
@@ -99,7 +99,7 @@ Le soleil ne juge pas, il accompagne.”
 | 3 | Silence-Suspendu-mix.mp3 | Le silence est ton refuge, ton espace sacré |
 | 4 | routine-matin-mix.mp3 | Éveille-toi comme une lumière douce |
 | 5 | spirale-respiratoire-fem-v1.mp3 | Dessine des cercles de paix |
-| 6 | meditation-guidee-mix.mp3 | Plonge dans ton monde intérieur avec tendresse |
+| 6 | meditation-guidée-mix.mp3 | Plonge dans ton monde intérieur avec tendresse |
 | 7 | transition_emotionnelle.mp3 | Traverse ce jour comme une rivière calme |
 | 8 | Silence-Suspendu-mix.mp3 | Écoute ce qui ne fait pas de bruit |
 | 9 | souffle_fem_voix1.mp3 | Respire comme si tu écrivais un poème invisible |
@@ -117,13 +117,13 @@ Tu ### 📆 Parcours 21 jours
 | 3 | Silence-Suspendu-mix.mp3 | Le silence est ton refuge, ton espace sacré |
 | 4 | routine-matin-mix.mp3 | Éveille-toi comme une lumière douce |
 | 5 | spirale-respiratoire-fem-v1.mp3 | Dessine des cercles de paix |
-| 6 | meditation-guidee-mix.mp3 | Plonge dans ton monde intérieur avec tendresse |
+| 6 | meditation-guidée-mix.mp3 | Plonge dans ton monde intérieur avec tendresse |
 | 7 | transition_emotionnelle.mp3 | Traverse ce jour comme une rivière calme |
 | 8 | Silence-Suspendu-mix.mp3 | Écoute ce qui ne fait pas de bruit |
 | 9 | souffle_fem_voix1.mp3 | Respire comme si tu écrivais un poème invisible |
 |10 | routine-matin-mix.mp3 | Commence ce jour avec une caresse d’air |
 |11 | spirale-respiratoire-fem-v1.mp3 | Tourne doucement vers l’intérieur |
-|12 | meditation-guidee-mix.mp3 | Laisse-toi guider sans effort, sans attente |
+|12 | meditation-guidée-mix.mp3 | Laisse-toi guider sans effort, sans attente |
 |13 | transition_emotionnelle.mp3 | Change d’état sans te perdre |
 |14 | calme-ancre.mp3 | Reviens à ton centre, là où rien ne tremble |
 |15 | Silence-Suspendu-mix.mp3 | Suspends le bruit, écoute ton ciel intérieur |
@@ -198,7 +198,7 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
           { "day": 3, "audio": "Silence-Suspendu-mix.mp3", "intention": "Le silence est ton refuge", "emotionTag": "🌙", "status": "pending" },
           { "day": 4, "audio": "routine-matin-mix.mp3", "intention": "Éveille-toi comme une lumière douce", "emotionTag": "🌄", "status": "pending" },
           { "day": 5, "audio": "spirale-respiratoire-fem-v1.mp3", "intention": "Dessine des cercles de paix", "emotionTag": "🌀", "status": "pending" },
-          { "day": 6, "audio": "meditation-guidee-mix.mp3", "intention": "Plonge avec tendresse", "emotionTag": "🌙", "status": "pending" },
+          { "day": 6, "audio": "meditation-guidée-mix.mp3", "intention": "Plonge avec tendresse", "emotionTag": "🌙", "status": "pending" },
           { "day": 7, "audio": "transition_emotionnelle.mp3", "intention": "Clôture avec gratitude", "emotionTag": "🌀", "status": "pending" }
         ]
       },
@@ -211,13 +211,13 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
           { "day": 3, "audio": "Silence-Suspendu-mix.mp3", "intention": "Le silence est ton refuge, ton espace sacré", "emotionTag": "🌙", "status": "pending" },
           { "day": 4, "audio": "routine-matin-mix.mp3", "intention": "Éveille-toi comme une lumière douce", "emotionTag": "🌄", "status": "pending" },
           { "day": 5, "audio": "spirale-respiratoire-fem-v1.mp3", "intention": "Dessine des cercles de paix", "emotionTag": "🌀", "status": "pending" },
-          { "day": 6, "audio": "meditation-guidee-mix.mp3", "intention": "Plonge dans ton monde intérieur avec tendresse", "emotionTag": "🌙", "status": "pending" },
+          { "day": 6, "audio": "meditation-guidée-mix.mp3", "intention": "Plonge dans ton monde intérieur avec tendresse", "emotionTag": "🌙", "status": "pending" },
           { "day": 7, "audio": "transition_emotionnelle.mp3", "intention": "Traverse ce jour comme une rivière calme", "emotionTag": "🌀", "status": "pending" },
           { "day": 8, "audio": "Silence-Suspendu-mix.mp3", "intention": "Écoute ce qui ne fait pas de bruit", "emotionTag": "🌙", "status": "pending" },
           { "day": 9, "audio": "souffle_fem_voix1.mp3", "intention": "Respire comme si tu écrivais un poème invisible", "emotionTag": "🌱", "status": "pending" },
           { "day": 10, "audio": "routine-matin-mix.mp3", "intention": "Commence ce jour avec une caresse d’air", "emotionTag": "🌄", "status": "pending" },
           { "day": 11, "audio": "spirale-respiratoire-fem-v1.mp3", "intention": "Tourne doucement vers l’intérieur", "emotionTag": "🌙", "status": "pending" },
-          { "day": 12, "audio": "meditation-guidee-mix.mp3", "intention": "Laisse-toi guider sans effort, sans attente", "emotionTag": "🌙", "status": "pending" },
+          { "day": 12, "audio": "meditation-guidée-mix.mp3", "intention": "Laisse-toi guider sans effort, sans attente", "emotionTag": "🌙", "status": "pending" },
           { "day": 13, "audio": "calme-ancre.mp3", "intention": "Reviens à ton centre, là où rien ne tremble", "emotionTag": "🌱", "status": "pending" },
           { "day": 14, "audio": "transition_emotionnelle.mp3", "intention": "Clôture ce cycle avec gratitude et douceur", "emotionTag": "🌀", "status": "pending" }
         ]
@@ -231,13 +231,13 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
           { "day": 3, "audio": "Silence-Suspendu-mix.mp3", "intention": "Le silence est ton refuge, ton espace sacré", "emotionTag": "🌙", "status": "pending" },
           { "day": 4, "audio": "routine-matin-mix.mp3", "intention": "Éveille-toi comme une lumière douce", "emotionTag": "🌄", "status": "pending" },
           { "day": 5, "audio": "spirale-respiratoire-fem-v1.mp3", "intention": "Dessine des cercles de paix", "emotionTag": "🌀", "status": "pending" },
-          { "day": 6, "audio": "meditation-guidee-mix.mp3", "intention": "Plonge dans ton monde intérieur avec tendresse", "emotionTag": "🌙", "status": "pending" },
+          { "day": 6, "audio": "meditation-guidée-mix.mp3", "intention": "Plonge dans ton monde intérieur avec tendresse", "emotionTag": "🌙", "status": "pending" },
           { "day": 7, "audio": "transition_emotionnelle.mp3", "intention": "Traverse ce jour comme une rivière calme", "emotionTag": "🌀", "status": "pending" },
           { "day": 8, "audio": "Silence-Suspendu-mix.mp3", "intention": "Écoute ce qui ne fait pas de bruit", "emotionTag": "🌙", "status": "pending" },
           { "day": 9, "audio": "souffle_fem_voix1.mp3", "intention": "Respire comme si tu écrivais un poème invisible", "emotionTag": "🌱", "status": "pending" },
           { "day": 10, "audio": "routine-matin-mix.mp3", "intention": "Commence ce jour avec une caresse d’air", "emotionTag": "🌄", "status": "pending" },
           { "day": 11, "audio": "spirale-respiratoire-fem-v1.mp3", "intention": "Tourne doucement vers l’intérieur", "emotionTag": "🌙", "status": "pending" },
-          { "day": 12, "audio": "meditation-guidee-mix.mp3", "intention": "Laisse-toi guider sans effort, sans attente", "emotionTag": "🌙", "status": "pending" },
+          { "day": 12, "audio": "meditation-guidée-mix.mp3", "intention": "Laisse-toi guider sans effort, sans attente", "emotionTag": "🌙", "status": "pending" },
           { "day": 13, "audio": "transition_emotionnelle.mp3", "intention": "Change d’état sans te perdre", "emotionTag": "🌀", "status": "pending" },
           { "day": 14, "audio": "calme-ancre.mp3", "intention": "Reviens à ton centre, là où rien ne tremble", "emotionTag": "🌱", "status": "pending" },
           { "day": 15, "audio": "Silence-Suspendu-mix.mp3", "intention": "Suspends le bruit, écoute ton ciel intérieur", "emotion
@@ -319,7 +319,7 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
     },
     {
       "day": 6,
-      "audio": "meditation-guidee-mix.mp3",
+      "audio": "meditation-guidée-mix.mp3",
       "intention": "Plonge dans ton monde intérieur avec tendresse",
       "emotionTag": "🌙",
       "status": "pending",
@@ -367,7 +367,7 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
     },
     {
       "day": 12,
-      "audio": "meditation-guidee-mix.mp3",
+      "audio": "meditation-guidée-mix.mp3",
       "intention": "Laisse-toi guider sans effort, sans attente",
       "emotionTag": "🌙",
       "status": "pending",
@@ -423,7 +423,7 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
     },
     {
       "day": 19,
-      "audio": "meditation-guidee-mix.mp3",
+      "audio": "meditation-guidée-mix.mp3",
       "intention": "Explore sans carte, mais avec confiance",
       "emotionTag": "🌙",
       "status": "pending",
