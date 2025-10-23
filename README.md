@@ -265,6 +265,190 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
 - Le parcours est **modulaire**, chaque bloc peut être activé ou masqué selon le statut
 - Aucun contenu n’est ajouté ou modifié sans validation
 
+{
+  "format": "🔁 Renaissance solaire",
+  "totalDays": 21,
+  "days": [
+    {
+      "day": 1,
+      "audio": "calme-ancre.mp3",
+      "intention": "Respire pour t’ancrer dans le présent",
+      "emotionTag": "🌱",
+      "status": "active",
+      "modules": {
+        "meditation": { "file": "calme-ancre.mp3", "duration": "5min53", "status": "validé" },
+        "respiration": { "type": "cohérence", "guidance": "souffle mixé", "status": "actif" },
+        "journal": { "prompt": "Quel mot te guide aujourd’hui ?", "mode": "texte ou vocal", "status": "actif" },
+        "balanceTracking": { "mode": "manuel + wearable", "fields": ["sommeil", "activité", "alimentation", "humeur"], "status": "actif" },
+        "softReminder": { "trigger": "fatigue détectée", "message": "Ton souffle peut t’ancrer. Priorise la respiration lente.", "moduleSuggestion": "calme-ancre.mp3", "status": "actif" },
+        "zenAdvice": { "text": "Tu n’as rien à prouver. Le calme est déjà en toi.", "status": "actif" },
+        "closure": { "option": "refaire la respiration ou relire l’intention", "status": "actif" }
+      }
+    },
+    {
+      "day": 2,
+      "audio": "souffle_fem_voix1.mp3",
+      "intention": "Ton souffle est ton fil d’or",
+      "emotionTag": "🌱",
+      "status": "pending",
+      "modules": { /* modules identiques, adaptés au fichier et à l’intention */ }
+    },
+    {
+      "day": 3,
+      "audio": "Silence-Suspendu-mix.mp3",
+      "intention": "Le silence est ton refuge, ton espace sacré",
+      "emotionTag": "🌙",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 4,
+      "audio": "routine-matin-mix.mp3",
+      "intention": "Éveille-toi comme une lumière douce",
+      "emotionTag": "🌄",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 5,
+      "audio": "spirale-respiratoire-fem-v1.mp3",
+      "intention": "Dessine des cercles de paix",
+      "emotionTag": "🌀",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 6,
+      "audio": "meditation-guidee-mix.mp3",
+      "intention": "Plonge dans ton monde intérieur avec tendresse",
+      "emotionTag": "🌙",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 7,
+      "audio": "transition_emotionnelle.mp3",
+      "intention": "Traverse ce jour comme une rivière calme",
+      "emotionTag": "🌀",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 8,
+      "audio": "Silence-Suspendu-mix.mp3",
+      "intention": "Écoute ce qui ne fait pas de bruit",
+      "emotionTag": "🌙",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 9,
+      "audio": "souffle_fem_voix1.mp3",
+      "intention": "Respire comme si tu écrivais un poème invisible",
+      "emotionTag": "🌱",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 10,
+      "audio": "routine-matin-mix.mp3",
+      "intention": "Commence ce jour avec une caresse d’air",
+      "emotionTag": "🌄",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 11,
+      "audio": "spirale-respiratoire-fem-v1.mp3",
+      "intention": "Tourne doucement vers l’intérieur",
+      "emotionTag": "🌙",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 12,
+      "audio": "meditation-guidee-mix.mp3",
+      "intention": "Laisse-toi guider sans effort, sans attente",
+      "emotionTag": "🌙",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 13,
+      "audio": "transition_emotionnelle.mp3",
+      "intention": "Change d’état sans te perdre",
+      "emotionTag": "🌀",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 14,
+      "audio": "calme-ancre.mp3",
+      "intention": "Reviens à ton centre, là où rien ne tremble",
+      "emotionTag": "🌱",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 15,
+      "audio": "Silence-Suspendu-mix.mp3",
+      "intention": "Suspends le bruit, écoute ton ciel intérieur",
+      "emotionTag": "🌙",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 16,
+      "audio": "souffle_fem_voix1.mp3",
+      "intention": "Respire pour accueillir ce qui vient",
+      "emotionTag": "🌱",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 17,
+      "audio": "routine-matin-mix.mp3",
+      "intention": "Laisse la lumière entrer doucement",
+      "emotionTag": "🌄",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 18,
+      "audio": "spirale-respiratoire-fem-v1.mp3",
+      "intention": "Respire en spirale, comme une danse lente",
+      "emotionTag": "🌀",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 19,
+      "audio": "meditation-guidee-mix.mp3",
+      "intention": "Explore sans carte, mais avec confiance",
+      "emotionTag": "🌙",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 20,
+      "audio": "calme-ancre.mp3",
+      "intention": "Respire pour relâcher ce qui pèse",
+      "emotionTag": "🌱",
+      "status": "pending",
+      "modules": { /* idem */ }
+    },
+    {
+      "day": 21,
+      "audio": "transition_emotionnelle.mp3",
+      "intention": "Clôture ce cycle avec gratitude et douceur",
+      "emotionTag": "🌀",
+      "status": "pending",
+      "modules": { /* idem */ }
+    }
+  ]
+}
+
+
 ## 🪶 Contact
 
 
