@@ -16,7 +16,7 @@ Nothing is left empty. Every breath is an anchor. Every silence, a refuge.
 | Guided Breathing         | `souffle_fem_voix1.mp3`          | 3min52   | Feminine breathing + wind ambiance, recentring module      |
 | Emotional Transition     | `transition_emotionnelle.mp3`    | 3min12   | Guided emotional passage, soft voice + slow ambiance       |
 | Morning Routine          | `routine-matin-mix.mp3`          | 2min32   | Poetic awakening + feminine voice, soft ambiance           |
-| Guided Meditation        | `meditation-guidee-mix.mp3`      | 4min19   | Slow narration + ultra-slow ambiance, deep guidance        |
+| Guided Meditation        | `meditation-guidée-mix.mp3`      | 4min19   | Slow narration + ultra-slow ambiance, deep guidance        |
 | Respiratory Spiral       | `spirale-respiratoire-fem-v1.mp3`| 3min18   | Guided breathing + mixed breath, immersive loop            |
 | Suspended Silence        | `Silence-suspendu-mix.mp3`       | 3min15   | Soft voice + light ambiance, sensory suspension module     |
 | SOS Zen                  | `sos-refuge-v1.mp3`              | 3min15   | Gentle human voice + suspended ambiance, immediate refuge  |
@@ -37,7 +37,7 @@ Nothing is left empty. Every breath is an anchor. Every silence, a refuge.
 ## 🌱 Coming Soon
 
 Modules under testing or pending validation:
-- `tres-mal-emily-piano-eau.mp3` – alternative SOS Zen module, voice + piano + water
+
 
 ---
 
