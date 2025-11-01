@@ -447,6 +447,99 @@ Chaque parcours possède une narration d’ouverture et de clôture, intégrée 
     }
   ]
 }
+TECHNIQUE DE MEDITATION:
+export function getAllMeditationTechniques() {
+  return [
+    {
+      id: 'calme_ancre',
+      title: 'Ancre de calme',
+      file: '/assets/audio/calme-ancre.mp3',
+      duration: 10,
+      description: 'Voix humaine douce + ambiance étendue',
+      icon: '🌊',
+      hasAudio: true,
+      hasAnimation: true,
+      real: true
+    },
+    {
+      id: 'souffle_guidee',
+      title: 'Souffle guidé',
+      file: '/assets/audio/souffle_fem_voix1.mp3',
+      duration: 5,
+      description: 'Respiration féminine + ambiance vent',
+      icon: '🌬️',
+      hasAudio: true,
+      hasAnimation: true,
+      real: true
+    },
+    {
+      id: 'transition_emotionnelle',
+      title: 'Transition émotionnelle',
+      file: '/assets/audio/transition_emotionnelle.mp3',
+      duration: 5,
+      description: 'Passage guidé, voix douce + ambiance lente',
+      icon: '🔥',
+      hasAudio: true,
+      hasAnimation: false,
+      real: true
+    },
+    {
+      id: 'routine_matin',
+      title: 'Routine du matin',
+      file: '/assets/audio/routine-matin-mix.mp3',
+      duration: 5,
+      description: 'Éveil poétique + voix féminine',
+      icon: '🌅',
+      hasAudio: true,
+      hasAnimation: false,
+      real: true
+    },
+    {
+      id: 'meditation_guidee',
+      title: 'Méditation guidée',
+      file: '/assets/audio/meditation-guidée-mix.mp3',
+      duration: 10,
+      description: 'Narration lente + ambiance ultra-slow',
+      icon: '🧘',
+      hasAudio: true,
+      hasAnimation: false,
+      real: true
+    },
+    {
+      id: 'spirale_respiratoire',
+      title: 'Spirale respiratoire',
+      file: '/assets/audio/spirale-respiratoire-fem-v1.mp3',
+      duration: 5,
+      description: 'Respiration guidée + souffle mixé',
+      icon: '🌀',
+      hasAudio: true,
+      hasAnimation: true,
+      real: true
+    },
+    {
+      id: 'silence_suspendu',
+      title: 'Silence suspendu',
+      file: '/assets/audio/Silence-Suspendu-mix.mp3',
+      duration: 5,
+      description: 'Voix douce + ambiance légère',
+      icon: '🤫',
+      hasAudio: true,
+      hasAnimation: false,
+      real: true
+    },
+    {
+      id: 'sos_zen',
+      title: 'SOS Zen',
+      file: '/assets/audio/sos-refuge-v1.mp3',
+      duration: 5,
+      description: 'Voix humaine douce + ambiance suspendue',
+      icon: '🆘',
+      hasAudio: true,
+      hasAnimation: false,
+      real: true
+    }
+  ];
+}
 
 
 ## 🪶 Contact
