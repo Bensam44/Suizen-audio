@@ -540,7 +540,115 @@ export function getAllMeditationTechniques() {
     }
   ];
 }
+A FAIRE LA PROCHAINE FOIS ::
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { Progress } from '@/components/ui/progress';
+import { Play, Lock, CheckCircle2 } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { createPageUrl } from '@/utils';
 
+export default function ParcoursTracker({ 
+  parcoursData, 
+  currentDayIndex = 0, 
+  nom,
+  balise,
+  onAudioPlay,
+  onEndSession   // ✅ reçu en prop
+}) {
+  const navigate = useNavigate();
+  const [showAudioPlayer, setShowAudioPlayer] = React.useState(false);
+
+  if (!parcoursData || !parcoursData.jours || parcoursData.jours.length === 0) {
+    return (
+      <Card className="bg-white/80 backdrop-blur-sm">
+        <CardContent className="p-8 text-center text-slate-500">
+          Aucun parcours disponible
+        </CardContent>
+      </Card>
+    );
+  }
+
+  const jours = parcoursData?.jours || [];
+  const totalJours = jours.length;
+  const safeIndex = (currentDayIndex >= 0 && currentDayIndex < totalJours) ? currentDayIndex : 0;
+
+  const jourCourant = jours[safeIndex];
+
+  return (
+    <Card className="bg-white/80 backdrop-blur-sm">
+      <CardHeader>
+        <CardTitle>
+          {balise} Jour {safeIndex + 1} / {totalJours}
+        </CardTitle>
+      </CardHeader>
+      <CardContent>
+        <p>{jourCourant?.description}</p>
+
+        {/* ✅ Bouton Terminer la session */}
+        {jourCourant?.status === 'active' && (
+          <div className="text-center pb-6">
+            <Button
+              onClick={() => onEndSession(nom)}   // ✅ utilise la prop
+              size="lg"
+              className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg shadow-md"
+            >
+              ✅ Terminer cette session
+            </Button>
+            <p className="text-xs text-slate-500 mt-2">
+              Cela débloquera le jour suivant.
+            </p>
+          </div>
+        )}
+      </CardContent>
+    </Card>
+  );
+}
+
+et ça aussi :  import React from "react";
+import { useNavigate } from "react-router-dom";
+import ParcoursTracker from "./ParcoursTracker";
+
+export default function PageParcours() {
+  const navigate = useNavigate();
+
+  // ✅ Déclare la fonction ici
+  const onEndSession = (currentPath) => {
+    // Ici tu peux ajouter ta logique de progression (incrémenter le jour)
+    navigate(`/parcours/${currentPath}`);
+  };
+
+  return (
+    <div>
+      <ParcoursTracker
+        parcoursData={eveilData}
+        currentDayIndex={eveilIndex}
+        nom="eveil"
+        balise="🌄"
+        onEndSession={onEndSession}
+      />
+
+      <ParcoursTracker
+        parcoursData={cycleData}
+        currentDayIndex={cycleIndex}
+        nom="cycle"
+        balise="🔆"
+        onEndSession={onEndSession}
+      />
+
+      <ParcoursTracker
+        parcoursData={renaissanceData}
+        currentDayIndex={renaissanceIndex}
+        nom="renaissance"
+        balise="🔁"
+        onEndSession={onEndSession}
+      />
+    </div>
+  );
+}
 
 ## 🪶 Contact
 
