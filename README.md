@@ -615,77 +615,79 @@ import ParcoursTracker from "./ParcoursTracker";
 export default function PageParcours() {
   const navigate = useNavigate();
 
-  // ✅ Déclare la fonction ici
-  const onEndSession = (currentPath) => {
-    // Ici tu peux ajouter ta logique de progression (incrémenter le jour)
-    navigate(`/parcours/${currentPath}`);
-  };
+PLAN POUR chemin du soleil :
+src/
+ ├─ Composants/
+ │   └─ ParcoursTracker.jsx   // moteur neutre (bouton + aperçu)
+ ├─ Pages/
+ │   ├─ CheminDuSoleil.jsx    // parcours autonome, intact
+ │   └─ PageParcours.jsx      // orchestre les 3 parcours
+ ├─ Entités/
+ │   ├─ EveilPath.js          // 🌄 7 jours
+ │   ├─ CyclePath.js          // 🔆 14 jours
+ │   └─ RenaissancePath.js    // 🔁 21 jours
+# 📋 Plan de développement SuiZen
 
-  return (
-    <div>
-      <ParcoursTracker
-        parcoursData={eveilData}
-        currentDayIndex={eveilIndex}
-        nom="eveil"
-        balise="🌄"
-        onEndSession={onEndSession}
-      />
+## 🎯 Objectif
+Mettre en place trois parcours distincts (Éveil, Cycle, Renaissance) en plus de **CheminDuSoleil**, sans casser l’existant.
 
-      <ParcoursTracker
-        parcoursData={cycleData}
-        currentDayIndex={cycleIndex}
-        nom="cycle"
-        balise="🔆"
-        onEndSession={onEndSession}
-      />
+---
 
-      <ParcoursTracker
-        parcoursData={renaissanceData}
-        currentDayIndex={renaissanceIndex}
-        nom="renaissance"
-        balise="🔁"
-        onEndSession={onEndSession}
-      />
-    </div>
-  );
-}
-POUR SAMEDI:  
-Pas de variables inventées : chaque parcours a son fichier de données.
+## 📂 Structure des fichiers
 
-Même structure que CheminDuSoleil : day, audio, intention, emotionTag, modules.
 
-PageParcours reste simple : il importe les 3 fichiers et gère les index (eveilIndex, cycleIndex, renaissanceIndex).
+---
 
-ParcoursTracker est neutre : il reçoit parcoursData et currentDayIndex, et affiche le bon jour.
+## 📌 Rôles figés
 
-CheminDuSoleil peut rester autonome ou être branché sur ParcoursTracker plus tard, sans interférences.
+- **CheminDuSoleil.jsx**  
+  → reste autonome, ne pas modifier.
 
-✅ Résultat attendu
-Trois parcours distincts (7, 14, 21 jours).
+- **ParcoursTracker.jsx**  
+  → moteur neutre, affiche un parcours avec bouton *Terminer la session* + aperçu des jours à venir.  
+  → se termine par `export default ParcoursTracker;`.
 
-Données séparées, faciles à enrichir.
+- **PageParcours.jsx**  
+  → nouvelle page qui orchestre les 3 formats (Éveil, Cycle, Renaissance).  
+  → gère les index (`eveilIndex`, `cycleIndex`, `renaissanceIndex`) et la fonction `onEndSession`.
 
-Pas de doublons ni conflits entre CheminDuSoleil et PageParcours.
-Tu veux 3 parcours distincts (7, 14, 21 jours).
+- **EveilPath.js / CyclePath.js / RenaissancePath.js**  
+  → fichiers de données réels, pas de fantômes.  
+  → contiennent les jours, intentions, audios, symboles.
 
-Chaque parcours doit avoir ses propres données, mais avec la même structure que CheminDuSoleil (jour, audio, intention, modules).
+---
 
-PageParcours doit rester simple, juste orchestrer les trois parcours avec leurs index.
+## 🛑 Règles immuables
 
-ParcoursTracker est le moteur commun, neutre et réutilisable.
+- Pas de nouveaux noms inventés.  
+- Pas de refactor quotidien.  
+- Pas de duplication inutile.  
+- Chaque parcours passe par `ParcoursTracker`.  
+- CheminDuSoleil reste intact.
 
-👉 La prochaine fois, on pourra directement enrichir les 42 jours avec tes narrations poétiques déjà présentes dans CheminDuSoleil, sans rien inventer ni dupliquer.
+---
+
+## ✅ Étapes de travail
+
+1. Corriger `ParcoursTracker.jsx` → CheminDuSoleil refonctionne.  
+2. Tester CheminDuSoleil intact.  
+3. Ajouter `PageParcours.jsx` et les 3 fichiers de données (`EveilPath.js`, `CyclePath.js`, `RenaissancePath.js`).  
+4. Remplir progressivement les intentions/audios dans les fichiers de données.  
+
+---
+
+## 📌 Résultat attendu
+
+- CheminDuSoleil continue de marcher.  
+- Une nouvelle page (`PageParcours`) permet de tester les 3 formats.  
+- Structure claire, sans fichiers fantômes.  
+- Progression stable et contrôlée.
+
+
+
 ## 🪶 Contact
 
-src/
- ├─ data/
- │   ├─ eveilData.js
- │   ├─ cycleData.js
- │   └─ renaissanceData.js
- ├─ components/
- │   └─ ParcoursTracker.jsx
- └─ pages/
-     └─ PageParcours.jsx
+
 
 Ce dépôt est maintenu par [Sam](https://github.com/Bensam44),  
 pour l’app **SuiZen** : un refuge poétique, sensoriel, et guidé.
